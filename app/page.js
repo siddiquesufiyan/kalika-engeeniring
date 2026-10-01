@@ -6,14 +6,14 @@ import HowWeWork from "./component/HowWeWork"
 import Testimonial from "./component/Testimonial"
 import Faq from "./component/Faq"
 import Cta from "./component/Cta"
-import OurVison from "./component/OurVison"
+import ManufacturingAndReach from "./component/ManufacturingAndReach"
 function page() {
   return (
   <>
 <HomeBanner/>
 <OurProducts/>
-<OurVison/>
 <HowWeWork/>
+<ManufacturingAndReach/>
 <WeServe/>
 <Testimonial/>
 <Faq/>

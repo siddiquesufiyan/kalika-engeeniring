@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { useTheme } from "../component/ThemeProvider";
 import HowWeWork from "../component/HowWeWork";
+import ManufacturingAndReach from "../component/ManufacturingAndReach";
 import EngineeringExcellence from "../component/EngineeringExcellence";
 import Testimonial from "../component/Testimonial";
 import Faq from "../component/Faq";
@@ -690,8 +691,10 @@ function Manufacture() {
       {/* =====================================================
           FINAL CTA
       ====================================================== */}
+      <EngineeringExcellence/>
+      <ManufacturingAndReach/>
 <HowWeWork/>
-<EngineeringExcellence/>
+
 <Testimonial/>
 <Faq/>
 <Cta/>
