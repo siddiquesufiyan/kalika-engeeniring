@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #000000;
+  --color-brand-white: #ffffff;
+  --color-brand-orange: #ff6501;
+
+  --font-heading: var(--font-manrope);
+  --font-body: var(--font-open-sans);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+button {
+  font-family: var(--font-heading);
+}
+a{
+  font-family: var(--font-heading);
+}
+p,
+span,
+li,
+input,
+a,
+textarea,
+select {
+  font-family: var(--font-body);
+}
