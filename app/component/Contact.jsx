@@ -525,76 +525,81 @@ function Contact() {
               </div>
 
               {/* SERVICE */}
+<div>
+  <label
+    htmlFor="service"
+    className={`mb-2 block text-xs font-bold ${primaryText}`}
+  >
+    Service / Product Requirement
+  </label>
 
-              <div>
+  <select
+    id="service"
+    name="service"
+    defaultValue=""
+    required
+    className={`
+      h-12 w-full rounded-lg border px-4 text-sm
+      outline-none transition-all
+      focus:border-brand-orange
+      focus:ring-4 focus:ring-brand-orange/10
+      ${borderColor}
+      ${inputBg}
+      ${inputText}
+    `}
+  >
+    <option value="" disabled>
+      Select your requirement
+    </option>
 
-                <label
-                  htmlFor="service"
-                  className={`mb-2 block text-xs font-bold ${primaryText}`}
-                >
-                  Service / Product Requirement
-                </label>
+    <option value="plastic-components">Plastic Components</option>
+    <option value="rubber-components">Rubber Components</option>
+    <option value="automobile-parts">Automobile Parts</option>
+    <option value="electrical-parts">Electrical Parts</option>
+    <option value="wiring-parts">Wiring Parts</option>
+    <option value="plastic-rubber-washer">Plastic & Rubber Washer</option>
+    <option value="tap-washer">Tap Washer</option>
+    <option value="rubber-bush">Rubber Bush</option>
+    <option value="rubber-o-ring-seal">Rubber O-Ring & Seal</option>
+    <option value="gasket">Gasket</option>
+    <option value="grommet">Grommet</option>
+    <option value="protective-cap">Protective Cap</option>
+    <option value="dust-cap">Dust Cap</option>
+    <option value="teflon-ring">Teflon Ring</option>
+    <option value="dust-cover">Dust Cover</option>
+    <option value="pvc-pipe-cap">PVC Pipe Cap</option>
+    <option value="moss-cap">Moss Cap</option>
+    <option value="plastic-bush">Plastic Bush</option>
+    <option value="nylon-bush-washer">Nylon Bush & Washer</option>
+    <option value="machinery-hydraulic-parts">
+      Machinery & Hydraulic Parts
+    </option>
 
-                <select
-                  id="service"
-                  name="service"
-                  defaultValue=""
-                  required
-                  className={`
-                    h-12 w-full rounded-lg border px-4 text-sm
-                    outline-none transition-all
-                    focus:border-brand-orange
-                    focus:ring-4 focus:ring-brand-orange/10
-                    ${borderColor}
-                    ${inputBg}
-                    ${inputText}
-                  `}
-                >
-
-                  <option value="" disabled>
-                    Select your requirement
-                  </option>
-
-                  <option value="plastic-components">
-                    Plastic Components
-                  </option>
-
-                  <option value="rubber-components">
-                    Rubber Components
-                  </option>
-
-                  <option value="o-rings-seals">
-                    O-Rings & Seals
-                  </option>
-
-                  <option value="gaskets">
-                    Gaskets
-                  </option>
-
-                  <option value="bushes-washers">
-                    Bushes & Washers
-                  </option>
-
-                  <option value="automobile-parts">
-                    Automobile Parts
-                  </option>
-
-                  <option value="electrical-parts">
-                    Electrical Parts
-                  </option>
-
-                  <option value="custom-components">
-                    Custom Components
-                  </option>
-
-                  <option value="other">
-                    Other Requirement
-                  </option>
-
-                </select>
-
-              </div>
-
+    <option value="tapered-cap-plugs">Tapered Cap/Plugs</option>
+    <option value="centre-pull-plugs">Centre Pull Plugs</option>
+    <option value="side-pull-tabs">Side Pull Tabs</option>
+    <option value="tractor-parts">Tractor Parts</option>
+    <option value="packing-bush">Packing Bush</option>
+    <option value="dmc-insulator">DMC INSULATOR 8X40MM</option>
+    <option value="flange-gasket">Flange Gasket</option>
+    <option value="flange-protection-strip">Flange Protection Strip</option>
+    <option value="pp-corrugated-sheet">PP Corrugated Sheet</option>
+    <option value="water-pump-cap">Water Pump Cap</option>
+    <option value="cooler-parts">Cooler Parts</option>
+    <option value="drain-plug">Drain Plug</option>
+    <option value="motor-cap">Motor Cap</option>
+    <option value="geyser-parts">Geyser Parts</option>
+    <option value="geyser-gasket">Geyser Gasket</option>
+    <option value="geyser-sleeve">Geyser Sleeve</option>
+    <option value="geyser-knob">Geyser Knob</option>
+    <option value="wall-supporter">Wall Supporter</option>
+    <option value="rubber-sanitary-parts">Rubber Sanitary Parts</option>
+    <option value="rubber-filter-cap">Rubber Filter Cap</option>
+    <option value="pall-ring">
+      Pall Ring (Rasching Ring Alu. 25mm)
+    </option>
+  </select>
+</div>
               {/* REQUIREMENT */}
 
               <div>

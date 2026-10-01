@@ -6,11 +6,13 @@ import EngineeringExcellence from "../component/EngineeringExcellence"
 import Testimonial from "../component/Testimonial"
 import Faq from "../component/Faq"
 import Cta from "../component/Cta"
+import OurVison from "../component/OurVison"
 function page() {
   return (
     <div>
     <AboutHero/>
     <OurStory/>
+       <OurVison/>
     <EngineeringExcellence/>
     <Testimonial/>
     <Faq/>

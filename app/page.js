@@ -6,11 +6,13 @@ import HowWeWork from "./component/HowWeWork"
 import Testimonial from "./component/Testimonial"
 import Faq from "./component/Faq"
 import Cta from "./component/Cta"
+import OurVison from "./component/OurVison"
 function page() {
   return (
   <>
 <HomeBanner/>
 <OurProducts/>
+<OurVison/>
 <HowWeWork/>
 <WeServe/>
 <Testimonial/>

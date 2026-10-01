@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -8,28 +7,28 @@ import { useTheme } from "./ThemeProvider";
 
 const testimonials = [
   {
-    name: "Rajesh Kumar",
-    role: "Business Owner",
+    name: "Apex Auto Components",
+    role: "Automotive Manufacturing",
     image: "/testimonialscustomer1.jpeg",
     rating: 5,
     description:
-      "Kalika Engineering has been a reliable manufacturing partner for us. The quality of their components is excellent and their team always understands our requirements perfectly.",
+      "Kalika Engineering has been a dependable component manufacturing partner for our requirements. Their understanding of customized plastic and rubber components and consistent product quality has supported our production needs.",
   },
   {
-    name: "Amit Sharma",
-    role: "Purchase Manager",
+    name: "Prime Industrial Solutions",
+    role: "Industrial Manufacturing",
     image: "/testimonialscustomer2.jpeg",
     rating: 5,
     description:
-      "We have been working with Kalika Engineering for our customized components and the experience has been excellent. Their quality, consistency and timely delivery really stand out.",
+      "We have worked with Kalika Engineering for customized components and have appreciated their focus on quality, customization and reliable supply. Their team understands specific product requirements well.",
   },
   {
-    name: "Vikas Mehta",
-    role: "Production Head",
+    name: "National Electrical Systems",
+    role: "Electrical Products Manufacturer",
     image: "/testimonialscustomer3.jpeg",
     rating: 5,
     description:
-      "The team at Kalika Engineering provides excellent support from development to final production. Their manufacturing quality and attention to detail are highly appreciated.",
+      "Kalika Engineering provides practical component solutions for our manufacturing requirements. Their product range, customization capabilities and consistent approach make them a useful manufacturing partner.",
   },
 ];
 
@@ -64,6 +63,7 @@ function Testimonial() {
       `}
     >
       {/* Background Decoration */}
+
       <div
         className="
           pointer-events-none
@@ -95,7 +95,9 @@ function Testimonial() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
         {/* Section Heading */}
+
         <div className="mx-auto mb-12 max-w-2xl text-center sm:mb-14">
+
           <span
             className="
               mb-3
@@ -107,7 +109,7 @@ function Testimonial() {
               text-brand-orange
             "
           >
-            Client Testimonials
+            Business Partners
           </span>
 
           <h2
@@ -125,7 +127,7 @@ function Testimonial() {
               }
             `}
           >
-            What Our Customers Say
+            What Our Business Partners Say
           </h2>
 
           <p
@@ -141,13 +143,16 @@ function Testimonial() {
               }
             `}
           >
-            Trusted by businesses for quality manufacturing, reliable service
-            and customized component solutions.
+            Trusted by manufacturers and businesses for quality components,
+            customized solutions and reliable manufacturing support.
           </p>
+
         </div>
 
         {/* Testimonial Card */}
+
         <div className="mx-auto max-w-5xl">
+
           <div
             className={`
               relative
@@ -169,7 +174,9 @@ function Testimonial() {
               }
             `}
           >
+
             {/* Quote Icon */}
+
             <div
               className="
                 absolute
@@ -200,8 +207,11 @@ function Testimonial() {
                 lg:gap-12
               "
             >
-              {/* Customer Image */}
+
+              {/* Business Image */}
+
               <div className="shrink-0">
+
                 <div
                   className="
                     relative
@@ -213,7 +223,9 @@ function Testimonial() {
                     lg:w-40
                   "
                 >
+
                   {/* Orange Ring */}
+
                   <div
                     className="
                       absolute
@@ -225,6 +237,7 @@ function Testimonial() {
                   />
 
                   {/* Image */}
+
                   <div
                     className={`
                       absolute
@@ -240,20 +253,25 @@ function Testimonial() {
                   >
                     <Image
                       src={testimonial.image}
-                      alt={testimonial.name}
+                      alt={`${testimonial.name} business`}
                       fill
                       sizes="160px"
                       className="object-cover"
                     />
                   </div>
+
                 </div>
+
               </div>
 
               {/* Content */}
+
               <div className="flex-1 text-center lg:text-left">
 
                 {/* Stars */}
+
                 <div className="mb-4 flex justify-center gap-1 lg:justify-start">
+
                   {Array.from({
                     length: testimonial.rating,
                   }).map((_, index) => (
@@ -264,9 +282,11 @@ function Testimonial() {
                       className="text-brand-orange"
                     />
                   ))}
+
                 </div>
 
                 {/* Description */}
+
                 <p
                   className={`
                     text-base
@@ -283,8 +303,10 @@ function Testimonial() {
                   “{testimonial.description}”
                 </p>
 
-                {/* Customer Details */}
+                {/* Business Details */}
+
                 <div className="mt-6">
+
                   <h3
                     className={`
                       font-heading
@@ -311,11 +333,15 @@ function Testimonial() {
                   >
                     {testimonial.role}
                   </p>
+
                 </div>
+
               </div>
+
             </div>
 
             {/* Navigation */}
+
             <div
               className="
                 mt-8
@@ -329,10 +355,12 @@ function Testimonial() {
                 lg:mt-0
               "
             >
+
               {/* Previous */}
+
               <button
                 onClick={prevTestimonial}
-                aria-label="Previous testimonial"
+                aria-label="Previous business testimonial"
                 className={`
                   flex
                   h-11
@@ -353,9 +381,10 @@ function Testimonial() {
               </button>
 
               {/* Next */}
+
               <button
                 onClick={nextTestimonial}
-                aria-label="Next testimonial"
+                aria-label="Next business testimonial"
                 className="
                   flex
                   h-11
@@ -373,16 +402,20 @@ function Testimonial() {
               >
                 <ChevronRight size={21} />
               </button>
+
             </div>
+
           </div>
 
           {/* Dots */}
+
           <div className="mt-7 flex justify-center gap-2">
+
             {testimonials.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrent(index)}
-                aria-label={`Go to testimonial ${index + 1}`}
+                aria-label={`Go to business testimonial ${index + 1}`}
                 className={`
                   h-2
                   rounded-full
@@ -398,12 +431,14 @@ function Testimonial() {
                 `}
               />
             ))}
+
           </div>
+
         </div>
+
       </div>
     </section>
   );
 }
 
 export default Testimonial;
-

@@ -34,7 +34,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/sheet-metal.jpg",
+    image: "/metal-sheet-manufactur.png",
     label: "Sheet Metal Components",
     title: "Custom Sheet Metal",
     highlight: "Components",
