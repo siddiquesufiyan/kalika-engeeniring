@@ -4,18 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-<<<<<<< HEAD
-    "build": "next build --webpack",
-=======
-    "build": "next build",
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "lucide-react": "^1.45.0",
     "motion": "^13.2.0",
-    "next": "16.3.4",
+    "next": "^16.3.8",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-icons": "^5.7.0"
