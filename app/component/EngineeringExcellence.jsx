@@ -24,7 +24,6 @@ const tabs = [
 
     heading: "Precision Plastic Components",
     description:
-<<<<<<< HEAD
       "We manufacture a wide range of plastic components for Automotive, Electrical, Tractor, Submersible, Sanitaryware and other OEM and industrial applications.",
 
     points: [
@@ -43,31 +42,11 @@ const tabs = [
       "Precision plastic moulding",
       "Dimensional quality inspection",
       "Packing & dispatch",
-=======
-      "We manufacture a wide range of plastic components for Automotive, Electrical, Tractor, Submersible, Sanitaryware and other OEM industries.",
-
-    points: [
-      "Plastic Plugs & Caps",
-      "Rivets, Clips & Screws",
-      "Washers, Bushes & Spacers",
-      "Knobs & Handles",
-      "Custom Plastic Components",
-    ],
-
-    process: [
-      "Requirement & drawing study",
-      "Material selection",
-      "Tooling & mould development",
-      "Precision moulding",
-      "Quality inspection",
-      "Final packing & dispatch",
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
     ],
   },
 
   {
     id: "rubber",
-<<<<<<< HEAD
     title: "Rubber Components",
     shortTitle: "Rubber",
     icon: FlaskConical,
@@ -82,42 +61,20 @@ const tabs = [
       "PU Cords & Seals",
       "Flat & Cup Washers",
       "Rubber Bushes & Spacers",
-=======
-    title: "Rubber Solutions",
-    shortTitle: "Rubber",
-    icon: FlaskConical,
-
-    heading: "Engineered Rubber Solutions",
-    description:
-      "Our rubber components are developed for applications where durability, flexibility, sealing and reliable performance are essential.",
-
-    points: [
-      "O-Rings & Gaskets",
-      "Rubber Bushes",
-      "PU Cords",
-      "Sealing Components",
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
       "Custom Rubber Components",
     ],
 
     process: [
       "Application understanding",
-<<<<<<< HEAD
       "Material & compound selection",
       "Mould & tooling development",
       "Controlled rubber moulding",
-=======
-      "Compound selection",
-      "Mould & tooling development",
-      "Rubber moulding",
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
       "Dimensional inspection",
       "Quality approval & dispatch",
     ],
   },
 
   {
-<<<<<<< HEAD
     id: "sheet-metal",
     title: "Sheet Metal Components",
     shortTitle: "Sheet Metal",
@@ -172,33 +129,6 @@ const tabs = [
       "Manufacturing",
       "Quality inspection",
       "Final packing & delivery",
-=======
-    id: "manufacturing",
-    title: "How We Manufacture",
-    shortTitle: "Manufacturing",
-    icon: Factory,
-
-    heading: "From Requirement to Finished Component",
-    description:
-      "We follow a structured manufacturing approach that combines technical understanding, controlled production and quality inspection to deliver consistent components.",
-
-    points: [
-      "Customer requirement analysis",
-      "Material & compound selection",
-      "Tooling and mould development",
-      "Controlled manufacturing",
-      "Quality inspection",
-      "Packing & delivery",
-    ],
-
-    process: [
-      "Requirement",
-      "Design & Tooling",
-      "Material Selection",
-      "Manufacturing",
-      "Quality Control",
-      "Dispatch",
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
     ],
   },
 ];
@@ -260,26 +190,16 @@ function EngineeringExcellence() {
           <h2
             className={`text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl ${primaryText}`}
           >
-<<<<<<< HEAD
             Plastic, Rubber &{" "}
             <span className="text-brand-orange">Metal Solutions</span>
-=======
-            Plastic & Rubber
-            <span className="text-brand-orange"> Solutions</span>
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
           </h2>
 
           <p
             className={`mt-4 text-sm leading-7 sm:text-base ${secondaryText}`}
           >
-<<<<<<< HEAD
             Precision-manufactured plastic, rubber and sheet metal
             components developed around the requirements of OEMs,
             manufacturers and industrial applications.
-=======
-            Precision-engineered components designed around the requirements
-            of manufacturers, OEMs and industrial applications.
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
           </p>
         </div>
 
@@ -296,11 +216,7 @@ function EngineeringExcellence() {
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
                   className={`
-<<<<<<< HEAD
                     group flex cursor-pointer items-center gap-2.5
-=======
-                    group flex items-center gap-2.5
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
                     border px-5 py-3.5
                     text-sm font-bold
                     transition-all duration-300
@@ -421,11 +337,7 @@ function EngineeringExcellence() {
 
                 <div>
                   <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-orange">
-<<<<<<< HEAD
                     Product Range
-=======
-                    Expertise
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
                   </p>
 
                   <h4 className={`text-lg font-bold ${primaryText}`}>
@@ -549,11 +461,7 @@ function EngineeringExcellence() {
                     : "text-brand-black/55"
                 }`}
               >
-<<<<<<< HEAD
                 Consistent quality and manufacturing standards
-=======
-                Consistent manufacturing standards
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
               </p>
             </div>
           </div>
@@ -583,11 +491,7 @@ function EngineeringExcellence() {
                     : "text-brand-black/55"
                 }`}
               >
-<<<<<<< HEAD
                 Components developed around your requirements
-=======
-                Built around your requirements
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
               </p>
             </div>
           </div>
@@ -601,11 +505,7 @@ function EngineeringExcellence() {
 
             <div>
               <p className={`text-sm font-bold ${primaryText}`}>
-<<<<<<< HEAD
                 Pan-India & Export Supply
-=======
-                Global Supply
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
               </p>
 
               <p
@@ -615,11 +515,7 @@ function EngineeringExcellence() {
                     : "text-brand-black/55"
                 }`}
               >
-<<<<<<< HEAD
                 Products supplied across India and export markets
-=======
-                Products supplied across markets
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
               </p>
             </div>
           </div>

@@ -9,14 +9,8 @@ import { useTheme } from "./ThemeProvider";
 import {
   FaInstagram,
   FaFacebookF,
-<<<<<<< HEAD
   FaLinkedinIn,
  FaGoogle,
-=======
-  FaYoutube,
-  FaLinkedinIn,
-  FaXTwitter,
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
 } from "react-icons/fa6";
 
 import {
@@ -128,7 +122,6 @@ function Footer() {
     },
     {
       name: "LinkedIn",
-<<<<<<< HEAD
       href: "https://www.linkedin.com/company/kalika-engineering---india/",
       icon: <FaLinkedinIn />,
     },
@@ -137,21 +130,6 @@ function Footer() {
   href: "https://maps.app.goo.gl/fF7mGbbUauKLPRdw7",
   icon: <FaGoogle />,
 },
-=======
-      href: "#",
-      icon: <FaLinkedinIn />,
-    },
-    {
-      name: "YouTube",
-      href: "#",
-      icon: <FaYoutube />,
-    },
-    {
-      name: "X",
-      href: "#",
-      icon: <FaXTwitter />,
-    },
->>>>>>> dcce9ac188c6d3b2e9e5cd4f533c44d2862fa263
   ];
 
   // =====================================================
